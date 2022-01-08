@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -27,11 +31,11 @@ body {
   border-radius: 40px;
   margin-right: 100px;
   margin-left: 350px;
-  color: white;
+  color: #000;
 }
 
 .tombol:hover {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 section {
@@ -78,7 +82,7 @@ section {
 
 .nav-link:hover {
   color: #fff !important;
-  background: #0071b8;
+  background: #27ae60;
   border-radius: 0.5rem;
   padding: 0.5rem 1.5rem;
 }
@@ -101,47 +105,44 @@ section {
 /* Akhir Navbar */
 
 /* Jumbotron */
-#particles-js {
-  background-image: url(../img/background.png);
+.jumbotron {
+  background-image: url(../img/background.jpg);
   background-size: cover;
-  height: 830px;
-  margin-top: -150px;
-}
-
-.jumbotron h1 {
-  position: absolute;
-  color: #0071b8;
-  padding-top: 340px;
-  margin-left: -50px;
-  font-size: 90px;
-  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+  height: 800px;
+  margin-top: -260px;
   text-align: center;
 }
 
+.jumbotron h1 {
+  color: #000;
+  padding-top: 300px;
+  margin-left: -70px;
+  font-size: 80px;
+  font-family: 'Fredoka One', sans-serif;
+}
+
 .jumbotron p {
-  position: absolute;
-  color: #00415c;
-  margin-left: -1px;
-  padding-top: 550px;
+  color: rgb(56, 56, 56);
+  margin-left: -70px;
   font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 .tombol1 {
-  position: absolute;
-  margin-left: 50px;
-  margin-top: 600px;
+  margin-left: -70px;
   border-radius: 40px;
   color: #fff;
   padding: 0.3rem 2rem;
   font-size: 20px;
-  background: var(--blue);
+  background: #4ca872;
   cursor: pointer;
   font-weight: 500;
 }
 
 .tombol1:hover {
-  background: #0160bc;
+  background: #27ae60;
   color: #fff;
 }
 
